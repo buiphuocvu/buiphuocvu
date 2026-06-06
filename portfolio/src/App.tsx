@@ -5,7 +5,7 @@ const LINKS = {
   github: 'https://github.com/buiphuocvu',
   linkedin: 'https://linkedin.com/in/buiphuocvu',
   email: 'mailto:buiphuocvu2015@gmail.com',
-  cv: 'https://github.com/buiphuocvu/buiphuocvu/raw/main/Bui-Phuoc-Vu_CV.pdf',
+  cv: '/Bui-Phuoc-Vu_CV.pdf',
 };
 
 interface Project {
