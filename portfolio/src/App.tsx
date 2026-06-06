@@ -47,9 +47,23 @@ const SKILLS = [
   { cat: 'Deploy / Design', items: ['Netlify', 'Vercel', 'Figma'] },
 ];
 
+interface Education {
+  school: string;
+  degree: string;
+  year: string;
+}
+
+const EDUCATION: Education[] = [
+  { school: 'Đại học Kinh tế Quốc dân', degree: 'Cử nhân Quản trị Kinh doanh', year: '2020' },
+  { school: 'Đại học Đà Nẵng', degree: 'Cử nhân Ngôn ngữ Anh', year: '2018' },
+  { school: 'West Saigon College', degree: 'Cao đẳng Du lịch & Khách sạn', year: '2012' },
+  { school: 'Tự học — Frontend Development', degree: 'React · TypeScript · Tailwind CSS · Git', year: '2024–nay' },
+];
+
 const NAV_LINKS = [
   { label: 'Về tôi', href: '#about' },
   { label: 'Kỹ năng', href: '#skills' },
+  { label: 'Học vấn', href: '#education' },
   { label: 'Dự án', href: '#projects' },
   { label: 'Liên hệ', href: '#contact' },
 ];
@@ -332,10 +346,32 @@ export default function App() {
         </div>
       </section>
 
+      {/* ── Education ── */}
+      <section id="education" className="py-24 px-6">
+        <div className="max-w-5xl mx-auto">
+          <SectionLabel n="03" title="Học vấn" />
+
+          <div className="space-y-4">
+            {EDUCATION.map((edu) => (
+              <div
+                key={edu.school}
+                className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-l-2 border-blue-500/40 pl-4 py-1"
+              >
+                <div>
+                  <p className="font-semibold text-white text-base">{edu.school}</p>
+                  <p className="text-slate-400 text-sm mt-0.5">{edu.degree}</p>
+                </div>
+                <span className="text-blue-400 font-mono text-sm shrink-0">{edu.year}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Projects ── */}
       <section id="projects" className="py-24 px-6 bg-slate-900">
         <div className="max-w-5xl mx-auto">
-          <SectionLabel n="03" title="Dự án nổi bật" />
+          <SectionLabel n="04" title="Dự án nổi bật" />
 
           <div className="grid sm:grid-cols-3 gap-5">
             {PROJECTS.map((p) => (
@@ -359,7 +395,7 @@ export default function App() {
       {/* ── Contact ── */}
       <section id="contact" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <SectionLabel n="04" title="Liên hệ" />
+          <SectionLabel n="05" title="Liên hệ" />
 
           <div className="max-w-xl">
             <p className="text-slate-400 leading-relaxed mb-10">
