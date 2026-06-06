@@ -22,7 +22,7 @@ const PROJECTS: Project[] = [
     desc: 'Ứng dụng đặt món ăn trực tuyến — menu, giỏ hàng, thanh toán. Responsive mobile & desktop. CI/CD tự động qua Netlify, build dưới 30 giây.',
     tech: ['Bootstrap 5', 'Tailwind CSS', 'JavaScript ES6+'],
     github: 'https://github.com/buiphuocvu/PROJECT-FOOD-ORDERING-V1.0',
-    demo: 'https://buiphuocvu.netlify.app',
+    demo: null,
   },
   {
     name: 'Course365 Dashboard',
