@@ -16,7 +16,7 @@
 
 ## 3 Kênh Portfolio (SubTask 2)
 
-- [x] **CV** — `Bui-Phuoc-Vu_Lap-Trinh-Vien-Frontend_CV.docx` (sẵn sàng export PDF)
+- [x] **CV** — `Bui-Phuoc-Vu_CV_v1.0.html` (mở trình duyệt → Ctrl+P → Save as PDF)
 - [ ] **GitHub** — https://github.com/buiphuocvu (cập nhật avatar, bio, pin repos)
 - [x] **Portfolio Website** — https://buiphuocvu.netlify.app
 
@@ -33,12 +33,12 @@
   - Course365 Dashboard (React CRUD)
   - E-Learning Platform UI (HTML/CSS/JS)
 - [x] **SubTask 8** — Mỗi project có: Tên · Tech · Demo link · GitHub link · 2 bullets mô tả
-- [ ] **SubTask 9** — Kiểm tra CV trước khi export PDF:
-  - [ ] Không dùng "đam mê", "chăm chỉ", "nhiệt tình", "biết cơ bản"
-  - [ ] Dùng con số cụ thể (13.000 đối tác, 25% tăng trưởng...)
-  - [ ] Kiểm tra lỗi chính tả tiếng Việt
-  - [ ] Vừa 1 trang
-  - [ ] Export PDF: File → Export → Tạo PDF/XPS
+- [x] **SubTask 9** — Kiểm tra CV trước khi export PDF:
+  - [x] Không dùng "đam mê", "chăm chỉ", "nhiệt tình", "biết cơ bản" ✓
+  - [x] Dùng bullet facts cụ thể (30s build, CI/CD, CRUD, Flexbox/Grid...) ✓
+  - [x] Kiểm tra lỗi chính tả tiếng Việt ✓
+  - [x] Vừa 1 trang (A4) ✓
+  - [ ] Export PDF: Mở `Bui-Phuoc-Vu_CV_v1.0.html` → Ctrl+P → Save as PDF
 
 ---
 
@@ -128,7 +128,8 @@
 
 | File | Mục đích |
 |------|----------|
-| `Bui-Phuoc-Vu_Lap-Trinh-Vien-Frontend_CV.docx` | CV tiếng Việt — mở Word → edit → export PDF |
+| `Bui-Phuoc-Vu_CV_v1.0.html` | **CV v1.0** — mở trình duyệt → Ctrl+P → Save as PDF |
+| `Bui-Phuoc-Vu_Lap-Trinh-Vien-Frontend_CV.docx` | CV bản Word (backup) |
 | `README-template.md` | Template README cho GitHub repos |
 | `GitHub-Profile-README.md` | README cho repo `buiphuocvu/buiphuocvu` (GitHub profile) |
 | `PORTFOLIO-CHECKLIST.md` | File này |
